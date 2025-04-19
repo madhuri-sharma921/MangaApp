@@ -6,15 +6,11 @@ import android.content.Context
 import android.util.Log
 import java.io.IOException
 
-/**
- * Utility class to validate ML models and assets
- */
+
 object ModelValidator {
     private const val TAG = "ModelValidator"
 
-    /**
-     * Validates that the face detection model exists in assets
-     */
+   
     fun validateFaceDetectionModel(context: Context): Boolean {
         val possiblePaths = listOf(
             "blaze_face_short_range.tflite",
@@ -37,9 +33,7 @@ object ModelValidator {
         return false
     }
 
-    /**
-     * Lists all available assets in the app (for debugging)
-     */
+   
     fun listAvailableAssets(context: Context): String {
         return try {
             val assetsList = context.assets.list("") ?: emptyArray()
