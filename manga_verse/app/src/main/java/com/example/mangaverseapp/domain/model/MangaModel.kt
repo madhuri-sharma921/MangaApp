@@ -23,33 +23,3 @@ data class MangaModel(
     val update_at: Long,
     val lastUpdated: Long = System.currentTimeMillis()
 )
-//
-//@Entity(tableName = "mangas")
-//data class MangaModel(
-//    @PrimaryKey
-//    @SerializedName("id")
-//    val id: String,
-//
-//    @SerializedName("title")
-//    val title: String,
-//
-//    @SerializedName("image_url")
-//    val imageUrl: String,
-//
-//    @SerializedName("description")
-//    val description: String = "",
-//
-//    @SerializedName("author")
-//    val author: String = "",
-//
-//    @SerializedName("status")
-//    val status: String = "",
-//
-//    @SerializedName("rating")
-//    val rating: Float = 0f,
-//
-//    @SerializedName("genres")
-//    val genres: List<String> = emptyList(),
-//
-//    val lastUpdated: Long = System.currentTimeMillis()
-//)
