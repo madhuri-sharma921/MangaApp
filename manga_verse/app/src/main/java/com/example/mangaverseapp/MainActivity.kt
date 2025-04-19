@@ -50,7 +50,6 @@ class MainActivity : ComponentActivity() {
                         Screen.SignIn.route
                     }
 
-                    // Set up the navigation graph with the appropriate start destination
                     NavigationGraph(
                         navController = navController,
                         startDestination = startDestination
