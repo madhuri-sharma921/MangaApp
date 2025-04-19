@@ -257,8 +257,7 @@ fun SignUpScreen(
                 }
             }
             is SignUpViewModel.SignUpUiState.Success -> {
-                // This state is handled by the LaunchedEffect above
-                // Display loading or nothing as we'll navigate away
+              
                 LoadingState()
             }
         }
