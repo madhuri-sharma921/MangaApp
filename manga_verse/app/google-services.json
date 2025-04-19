@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004703031769",
+    "project_id": "mangaverseapp-54407",
+    "storage_bucket": "mangaverseapp-54407.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004703031769:android:8e61abc5afda2482d1f9c8",
+        "android_client_info": {
+          "package_name": "com.example.mangaverseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKntrohifFXFNWXIXYy9RobdJ4f2tU1Ro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

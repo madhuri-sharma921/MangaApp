@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MangaVerseApp</string>
+
+        <string name="manga">Manga</string>
+        <string name="face_recognition">Face Recognition</string>
+        <string name="sign_in">Sign In</string>
+        <string name="email">Email</string>
+        <string name="password">Password</string>
+        <string name="author">Author: %1$s</string>
+        <string name="status">Status: %1$s</string>
+        <string name="description">Description</string>
+        <string name="no_manga_available">No manga available</string>
+        <string name="error_occurred">An error occurred: %1$s</string>
+        <string name="initializing_camera">Initializing camera…</string>
+        <string name="camera_permission_required">Camera permission is required for face recognition</string>
+    </resources>
